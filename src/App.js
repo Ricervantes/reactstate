@@ -33,7 +33,7 @@ setAireGlobo(5);
               <button className="btn btn-danger" type="button" onClick={restarAire} disabled={aireGlobo === 5}>-Aire</button>
             </div>
           </div>
-          <div className="col">
+          {<div className="col">
 
             {boom && <h1 style={{ fontSize: `15rem` }}>💥 </h1>}
 
